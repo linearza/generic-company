@@ -1,7 +1,21 @@
 
 header{
   position: relative;
+  top: -50px;
   height: 50px;
   width: 100%;
-  background: $grey;
+  background: $grey-drk;
+  padding: 10px;
+  box-sizing: border-box;
+  .logo{
+    margin: 0;
+    width: 200px;
+    color: $white;
+    display: inline-block;
+    position: relative;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic;
+  }
 }
